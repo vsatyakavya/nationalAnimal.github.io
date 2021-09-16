@@ -49,11 +49,21 @@ h1{
     align-items: center;
     opacity:0;
     border-radius: 15px;
+    
+}
+
+.image_overlay > *{
+    transform :translateY(20px);
+    transition:transform 0.25s;
 }
 
 .image_overlay:hover{
     opacity:1;
-    background-color:#141358;
+    /* background-color:#141358; */
+
+}
+.image_overlay:hover > *{
+    transform:translateY(0);
 }
 .image_title{
     font-size:2em;
@@ -65,6 +75,3 @@ h1{
     margin-top:0.25em;
 }
 
-img:hover{
- 
-}
