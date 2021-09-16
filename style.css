@@ -2,19 +2,33 @@ body{
     background:#eee;
     
 }
+.main{
+    display:flex;
+    justify-content: space-around;
+    flex-direction:row;
+    margin:10px;
+    
+
+    
+}
+
 .container{
     /* display:flex;
     justify-content:space-around; */
     position:relative;
-    width:300px;
+    width:400px;
+
 
 }
-/* .heading{
+img{
+    border-radius:15px
+}
+.heading{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
 
-} */
+}
 /* img{
     display: block;
     margin-left: auto;
@@ -55,6 +69,7 @@ h1{
 .image_overlay > *{
     transform :translateY(20px);
     transition:transform 0.25s;
+    text-align:center
 }
 
 .image_overlay:hover{
@@ -73,5 +88,8 @@ h1{
 .image_description{
     font-size:1.25em;
     margin-top:0.25em;
+}
+.head{
+    margin-left:0px;
 }
 
