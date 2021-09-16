@@ -31,6 +31,7 @@ h1{
 .image1{
    display:block;
    width:100%;
+   border-radius: 15px;
 
 }
 .image_overlay{
@@ -46,6 +47,13 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity:0;
+    border-radius: 15px;
+}
+
+.image_overlay:hover{
+    opacity:1;
+    background-color:#141358;
 }
 .image_title{
     font-size:2em;
@@ -58,5 +66,5 @@ h1{
 }
 
 img:hover{
-
+ 
 }
