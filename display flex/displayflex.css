@@ -33,6 +33,7 @@ img{
 
 #section2{
     background: chocolate;
+    margin-bottom: 20px;
 }
 /*stretching items boxes to full screen using flex:1     */
 
@@ -47,10 +48,31 @@ img{
 /* display images in vertical using display flex*/
 
 #images{
-    width:fit-content;
+     width:fit-content;
     background: gray;
     flex-direction:column;
     align-items: flex-start;
-    margin:20px;
+     margin:20px; 
 
+}
+
+/* show images in a vertical order and center the images using display flex */
+#middleimages{
+    width:fit-content;
+    background: gray;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 900px;
+    margin-right: 800px;
+}
+/* show images at the screen end in a vertical way using display flex */
+
+#endimages{
+    width:fit-content;
+    background: gray;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 1700px;
+    
 }
